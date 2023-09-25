@@ -1,0 +1,56 @@
+/* X-Small	None	<576px
+    Small	sm	≥576px
+    Medium	md	≥768px
+    Large	lg	≥992px
+    Extra large	xl	≥1200px
+    Extra extra large	xxl	≥1400px */
+
+/* COLOR  */
+    :root {
+        --green:#1ABC9C;
+        --light-blue:#3A546D;
+        --blue:#2C3E50;       
+    }
+
+    .bg-green {
+        background-color: var(--green) ;
+    }
+
+    .bg-light-blue {
+        background-color: var(--light-blue) ;
+    }
+
+    .bg-blu {
+        background-color: var(--blue) ;
+    }
+
+/* DEBUG */
+
+.debug .header-page {
+    /* background-color: var(--blue); */
+}
+
+.debug .row {
+    border: 1px solid yellow;
+} 
+
+.debug .col {
+    border: 1px solid aquamarine;
+}
+
+
+/* RESPONSIVE */
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }

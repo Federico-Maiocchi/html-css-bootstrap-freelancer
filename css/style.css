@@ -24,6 +24,23 @@
         background-color: var(--blue) ;
     }
 
+/* HERO */
+.img-avatar {
+    width: 200px;
+    height: 200px;
+}
+
+.star-icon {
+    color: white;
+}
+
+/* PORTFOLIO */
+
+.black-star-icon {
+    color: black;
+}
+
+.
 
 
 /* DEBUG */
@@ -47,17 +64,21 @@
 
 
 /* RESPONSIVE */
-// Small devices (landscape phones, 576px and up)
+/* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
 
-// Large devices (desktops, 992px and up)
+    /* HERO */
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }
 
-// X-Large devices (large desktops, 1200px and up)
+/* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }
 
-// XX-Large devices (larger desktops, 1400px and up)
+/* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { ... }

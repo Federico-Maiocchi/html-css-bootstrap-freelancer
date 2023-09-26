@@ -32,6 +32,7 @@
 
 .star-icon {
     color: white;
+
 }
 
 /* PORTFOLIO */
@@ -54,7 +55,7 @@
 
 .debug [class^="col"] {
     border: 1px solid green;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .debug .footer-page {

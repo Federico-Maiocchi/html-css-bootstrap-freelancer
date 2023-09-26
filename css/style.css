@@ -35,12 +35,41 @@
 
 }
 
+.star-icon::before, .star-icon::after {
+    content: "";
+    height: 4px;
+    width: 8%;
+    background-color: currentColor;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /* PORTFOLIO */
 
 .black-star-icon {
     color: black;
 }
 
+.black-star-icon::before, .black-star-icon::after {
+    content: "";
+    height: 4px;
+    width: 8%;
+    background-color: currentColor;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* ABOUT */
+.download-icon {
+    width: 30px;
+}
+
+/* FOOTER-INFORMATION */
+.green {
+    color: var(--green);
+}
+
+/* FOOTER-COPYRIGHT */
 
 
 /* DEBUG */
@@ -68,11 +97,7 @@
 @media (min-width: 576px) {  }
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
-    /* HERO */
-
- }
+@media (min-width: 768px) {  }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {  }
